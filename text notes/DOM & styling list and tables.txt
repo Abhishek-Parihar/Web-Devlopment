@@ -1,0 +1,41 @@
+DOM Model (Document Object Model) 
+
+Load Html => HTML Parse => DOM Model (goes in memomry & fetches css ,media ,JS) => Display
+			       /\
+		||             || Attach Style to DOM nodes
+                \/
+	     Load CSS   => Parse CSS 
+
+tree like structure with parent , siblings ,child;
+
+Unit in CSS
+==============
+
+Relative :- % , em, rem, vw, vh, vmin, vmax;
+Absolute :- cm, mm, in, px, pt, pc;
+
+Box Model
+=============
+Content => padding => border => margin 
+
+Styling Lists
+=================
+
+Markers
+-----------
+list-style-type: disc ,circle ,square,roman;
+list-style-position: outside, inside ;
+list-style-image: url(image);
+
+a {
+text-decoration: none;
+color: white;
+background-color: black;
+}
+
+Styling tables
+=========================
+border on table,th,td
+seprate border & collapse border 
+border-collapse- seprate , collapse;
+ 

@@ -1,0 +1,17 @@
+Responsive web Design
+=========================
+Media Query
+------------
+Syntax of Media Query
+=========================
+@media media-type
+
+ex - @media screen and (width: 600px) {
+
+	body {
+		color : red ;
+	}
+}
+
+all not and max-width , min width, ::after , ::before, 
+content => (Important!) 

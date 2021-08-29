@@ -1,0 +1,9 @@
+fielset => Legend (!)
+Some Input Types
+====================
+text, number, password, email, time ,date , radio, sumbit, reset, search, image, button;
+
+ 
+Some important input properties :
+============================
+placeholder , required 

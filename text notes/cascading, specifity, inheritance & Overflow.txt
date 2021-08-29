@@ -1,0 +1,24 @@
+Cascading , Inheritane and Specificity
+===========================================
+Cascasding - overiding previous css with last one (same specifity).
+Specificity - selector with higher specifity will override the lower ones.
+
+how to calculate specifity ? for details go to :- css-tricks.com/specifics-on-css-specifity/
+
+Inheritance : 
+
+inherit: inheriting css property from parent  
+initial: default
+unset: inheriting according to css rules
+
+!important - very high specifity
+
+Overflow
+===========
+occurs when content goes beyond thw given width and height
+default - visible
+overflow : scroll,hidden,auto,visible;
+
+for images
+--------------
+object-fit : contain(maintains aspect ratio),cover(fills the box completely),fill(fits in the box while trying to maintain aspect ratio(not maintained though)),none;

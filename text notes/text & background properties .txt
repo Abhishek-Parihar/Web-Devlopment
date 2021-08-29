@@ -1,0 +1,49 @@
+Property Of Css
+
+Colors : red ,green , blue, black;
+border-color : same
+
+Values in color property :-
+
+Name - 140 diffrent colors;
+RGB - Red , Blue , Green ;
+RGBA - same + Alpha - opacity ;
+Hexadecimal Colors : # RRGGBB; (0 - FF)
+
+Background 
+==================
+
+Background color - color
+Background image - url (image location);
+Background repeat - no repeat,repeat,repeat-x,repeat-y;
+Background position - left, center, right, top, bottom;
+background size - in px ;
+background-attachment : fixed , scroll;
+
+Fonts in CSS
+==================
+
+serif , san-serif, monospace, cursive;
+font-family ;
+font-size ;
+font-weight ;
+
+Fomatting text in css
+========================
+
+text-shadow : offset-x, offset-y , blur , color ;
+text-color: same as color ; 
+text-allign: left, center, right, justify;
+text-decoration: overline , line-through, underline,underline overline;
+text-transform: capitalize, uppercase, lowercase, none, full-width;
+text-indent: 0 , in % , in em;
+line-height: number ;(line-height = number * font size of element selector)
+letter-spacing
+word-spacing
+
+shorthand property 
+background - color  #000 ;              ||
+background-image: url (image);	        ||=>   
+background-repeat: no-repeat;		||=>  background: #000 url(image) no-repeat left top;
+background-position: left top;          || 
+		

@@ -1,0 +1,69 @@
+Css - Cascading style sheet
+
+to add design to a website.
+presentation layer
+
+Syntax of css
+
+property : Values; - (predefined & defined) 
+
+
+
+
+
+color : green;
+font-family : "Times New Roman",serif;
+text-allign : center ;
+list-style-type : none , square ;
+font - weight: bold;
+
+
+
+
+
+
+
+link css in html
+
+3 ways to add css :
+inline
+ex - <tagName style="property:value,">
+
+<h1 style = color : blueviolet;">something</h1> 
+
+internal css
+
+in head
+<style>
+	h2 {
+		color : brown ;
+	}
+</style>
+
+external css
+
+<link rel="stylesheet" href="style.css">
+create a new file called style.css
+we can add style here...
+
+
+Element Selectors ex - h1,h2,div,span etc
+combined selectors 
+Type selector - h1 (all h1's in Html)
+Class Selector - .classname
+Id selector - #Idname
+Attribute Selector - a[href = "www.example.com"] 
+Pseudo Class Selector :- selector : pseudo-class
+ex-
+     Hover state
+     Visited
+     link
+Pseudo Element Selector :- 
+p::first-line
+p::nth-child
+
+combinator Selector :- 
+article > p
+
+Universal Selector :- *
+
