@@ -1,0 +1,9 @@
+CSS Layout 
+
+Float : left, right, none;
+clear: right , left;
+
+position : static (defauult), relative, absolute;
+relative :- can change position from top, right, bottom, left;
+absolute :- stick to the page even when scrolled
+

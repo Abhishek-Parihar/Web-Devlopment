@@ -1,0 +1,20 @@
+Flexbox
+=============
+css flexbox layout helps to allign items vertically or horizonatlly using rows and columns.
+Items will "flex" to diffrent sizes to fill the space. It makes responsive design easier.
+
+display: flex, block;
+flex-direction: row, cloumn, row-reverse, column-reverse;
+
+justify-content: flex-start, flex-end, flex-center, space-around, space-between;
+align-items:baseline, flex-end, flex-start, center, stretch;
+align-content: same ;
+align-self: flex-end, baseline, flex-start, center, stretch;
+flex-wrap: wrap-reverse, nowrap, wrap;
+order: number; (for priority)
+flex-basis : px;
+flex-grow : number (shows tendency to grow according to the number);
+flex-shrink: same;
+flex (shorthand property)
+flex-flow:
+

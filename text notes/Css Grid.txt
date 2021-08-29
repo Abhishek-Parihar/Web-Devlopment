@@ -1,0 +1,15 @@
+Grid Layout
+==============
+ flexbox is 1D while CSS Grid is 2D.
+ display: grid;
+ grid-template-columns : 200px 200px 200px or 1fr 1fr 1fr or repeat(4, 1fr) or repeat(auto-fill, minmax(200px, 1fr));
+ grid-gap: just like margin;
+ grid-auto-rows: 100px or minmax(100, auto);
+ grid-auto-columns: 50px or minmax(50, auto);
+ grid-row-start: ;
+ grid-row-end: ;
+ grid-column-start: ;
+ grid-column-end: ;
+
+Nesting of grids and layouting them....
+ 
